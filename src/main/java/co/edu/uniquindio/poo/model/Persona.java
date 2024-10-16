@@ -3,13 +3,19 @@ package co.edu.uniquindio.poo.model;
 public class Persona {
     private String nombre, cedula, correo, telefono;
 
-    public Persona(){
+    /*
+     * Constructor de la clase Persona
+     */
+    public Persona(String nombre, String cedula, String correo, String telefono) {
         this.nombre = nombre;
         this.cedula = cedula;
         this.correo = correo;
         this.telefono = telefono;
     }
 
+    /*
+     * Getters y Setters
+     */
     public String getNombre() {
         return nombre;
     }
